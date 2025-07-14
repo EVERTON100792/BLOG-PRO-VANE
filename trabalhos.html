@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trabalhos e Demonstrações</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="logo-container" aria-label="Logo Blog Prof Vane">
+      <img src="css/logosite.png" alt="Logo do Blog da Prof. Vane" />
+    </div>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="atividades.html" >Atividades Gratuitas</a>
+    <a href="pagos.html">Materiais Pagos</a>
+    <a href="trabalhos.html"class="ativo">Trabalhos e Demonstrações</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+</header>
+
+
+  <main>
+    <section class="pagina">
+      <h1>Trabalhos e Demonstrações</h1>
+      <p>Veja aqui os projetos, atividades aplicadas e ideias criativas que realizei em sala de aula.</p>
+
+      <div class="cards-container">
+        <div class="card">
+          <img src="imagens/trabalho1.jpg" alt="Trabalho com alfabeto móvel" />
+          <h2>Alfabeto Móvel com EVA</h2>
+          <p>Atividade sensorial para trabalhar a formação de palavras com letras móveis coloridas. As crianças adoraram interagir com os materiais!</p>
+
+
+
+        </div>
+
+      
+        <div class="card">
+          <img src="imagens/trabalho2.jpg" alt="Cartazes de números" />
+          <h2>Painel dos Numerais</h2>
+          <p>Produção coletiva de cartazes com os números de 1 a 10, reforçando a contagem e a organização visual dos numerais na sala.</p>
+
+          
+
+        </div>
+
+        <div class="card">
+          <img src="imagens/trabalho3.jpg" alt="Caderno de leitura" />
+          <h2>Caderno de Leitura</h2>
+          <p>Os alunos criaram seus próprios cadernos com textos simples e ilustrações. Excelente forma de estimular o gosto pela leitura.</p>
+
+          
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+  <footer>
+  <div class="footer-container">
+    <p>© 2025 <strong>Blog da Prof. Vane</strong> | Compartilhando com carinho 💖</p>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/seuusuario" target="_blank">📸 Instagram</a>
+      <a href="mailto:profvane@email.com">✉️ E-mail</a>
+    </div>
+  </div>
+  <button class="menu-toggle" aria-label="Abrir menu"></button>
+</footer>
+
+
+
+  <script>
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('nav');
+      toggle.addEventListener('click', () => {
+      nav.classList.toggle('ativo');
+     });
+  </script>
+
+</body>
+</html>
